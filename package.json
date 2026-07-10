@@ -6,15 +6,19 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
+    "predev": "npx kill-port 3000",
     "dev": "nodemon server.js"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.3",
     "cors": "^2.8.5",
     "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.3",
     "sequelize": "^6.37.3",
     "sqlite3": "^5.1.7"
   },
   "devDependencies": {
+    "kill-port": "^2.0.1",
     "nodemon": "^3.1.14"
   }
 }
