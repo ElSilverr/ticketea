@@ -67,3 +67,7 @@ Fecha: 10/07/2026
 5. Al reservar entradas, el formulario se auto-completa con nombre y email del usuario
 6. En "Mis Inscripciones", busca automáticamente las reservas del usuario logueado
 7. Al hacer clic en "Salir", se elimina el token y redirige al inicio
+
+### Verificación y entrega
+- Documentado y verificado por: @ElSilverr (Josea)
+- Issue relacionada: #7
